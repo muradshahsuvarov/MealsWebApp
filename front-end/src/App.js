@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import { useState, useEffect } from 'react'
+import SearchButtonComponent from './components/SearchButtonComponent/SearchButtonComponent';
 
 
 
@@ -28,14 +29,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <img src="/pizzaicon2.png" className="App-logo" alt="logo" />
-          <a
-            className="App-link"
-            href="http://3boxgames.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {state.message}
-          </a>
+          <SearchButtonComponent />
         </header>
       </div>
     );
