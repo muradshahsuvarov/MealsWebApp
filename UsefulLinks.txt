@@ -1,0 +1,8 @@
+Food API
+https://www.themealdb.com/api.php
+
+Front-End:
+https://artsexperiments.withgoogle.com/poemportraits
+
+Ingredient Images:
+https://www.themealdb.com/images/ingredients/<Ingrient Name>

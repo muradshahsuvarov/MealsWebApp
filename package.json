@@ -1,0 +1,14 @@
+{
+  "name": "meals-api-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "startBackEnd": "npm run --prefix ./back-end devStart",
+    "startFrontEnd": "npm run --prefix ./front-end start",
+    "startPipeline": "concurrently \"npm run startBackEnd\" \"npm run startFrontEnd\""
+  },
+  "dependencies": {
+    "concurrently": "^7.3.0",
+    "cors": "^2.8.5"
+  }
+}
