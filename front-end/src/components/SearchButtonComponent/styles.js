@@ -83,3 +83,4 @@ export const IconRightArrow = styled(ArrowRightIcon)`
     fill: #393e46;
   }
 `;
+
