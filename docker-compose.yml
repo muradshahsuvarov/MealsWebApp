@@ -1,0 +1,20 @@
+version: "3"
+services:
+  pizza-back-end:
+    container_name: PIZZA-BACK-END
+    build:
+      context: back-end
+      dockerfile: Dockerfile
+    ports:
+      - '5000:5000'
+    expose:
+      - '5000'
+  pizza-front-end:
+    container_name: PIZZA-FRONT-END
+    build:
+      context: front-end
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    expose:
+      - '3000'
