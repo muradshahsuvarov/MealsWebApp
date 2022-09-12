@@ -10,3 +10,6 @@ https://www.themealdb.com/images/ingredients/<Ingrient Name>
 Pixabay Meal Images:
 Description: Getting image url from webformatURL JSON field
 Link: https://pixabay.com/api/docs/
+
+
+Service External IP Address: a8d24b3ea78a34cb7a573abc1ba5cf31-99778341.us-east-1.elb.amazonaws.com
