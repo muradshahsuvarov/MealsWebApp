@@ -29,7 +29,7 @@ function SearchButtonComponent(props) {
         return;
       }
 
-      const data = await fetch(`http://localhost:5000/meals/${targetRef.current.value}`, { method: "GET"});
+      const data = await fetch(`http://localhost:81/meals/${targetRef.current.value}`, { method: "GET"});
       const data_response = await data.text()
       console.log(`LOG: ${JSON.parse(data_response).message}`)
       if (JSON.parse(data_response).message == null) {
